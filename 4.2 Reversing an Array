@@ -13,7 +13,6 @@ function reverseArray(arr) {
 
 function reverseArrayInPlace(arr) {
   let temp = 0;
-  let position = Math.floor(arr.length / 2);
   for (let i = 0; i < arr.length; i++) {
     temp = arr[i];
     arr[i] = arr[arr.length-1-i];
